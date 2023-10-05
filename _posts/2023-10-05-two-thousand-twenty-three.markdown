@@ -2,7 +2,7 @@
 layout: post
 title: "Welcome to PowerAppMaker.Dev!"
 date: 2023-10-05 13:01:21 -0500
-categories: Website, Articles
+categories: website, articles
 ---
 
 I decided to start this website aftering listening to an episode of a podcast called, "A Question of Code" in which the hosts were discussing top tips to enjoy what you do for new developers. I believe it was episode 87: Top Tips review: enjoy what you do but don't hold me to that!
