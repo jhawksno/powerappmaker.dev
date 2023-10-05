@@ -13,14 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@domain.com
+title: Power App Maker for Beginners
+email: james.hawkins@snolab.ca
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Follow a struggling Power App Maker on my journey to become a Power App expert. From beginner to pro, I share my successes and failures, offer advice and provide resources to help other would-be Power App Makers on their journeys. 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://example.com" # the base hostname & protocol for your site
+url: "https://www.powerappmaker.dev" # the base hostname & protocol for your site
 
 # Social
 githubUsername:
