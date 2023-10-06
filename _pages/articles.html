@@ -15,7 +15,6 @@ permalink: /articles/
             <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
             <p>{{ post.date | date: "%b %-d, %Y" }}</p>
         </li>
-        <li>{{ post.excerpt }}</li>
     {% if forloop.last %}
         </ul>
     {% else %}
