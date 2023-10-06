@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Welcome to PowerAppMaker.Dev!"
-date: 2023-10-05 13:01:21 -0500
+date: 2023-10-05
 categories: website, articles
 ---
 
