@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Power App Maker for Beginners
+title: PowerAppMaker.Dev
 email: james.hawkins@snolab.ca
 description: > # this means to ignore newlines until "baseurl:"
   Follow a struggling Power App Maker on my journey to become a Power App expert. From beginner to pro, I share my successes and failures, offer advice and provide resources to help other would-be Power App Makers on their journeys. 
