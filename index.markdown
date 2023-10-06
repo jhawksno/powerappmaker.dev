@@ -3,20 +3,14 @@ layout: page
 title: PowerAppMaker.Dev
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis [nostrud exercitation](http://www.powerappmaker.dev) ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+# Welcome to PowerAppMaker.Dev!
 
-## Heading Level 2
+I decided to start this website aftering listening to an episode of a podcast called, <b>"A Question of Code"</b> in which the hosts were discussing top tips to enjoy what you do for new developers. I believe it was episode <b>87: Top Tips review: enjoy what you do</b> but don't hold me to that!
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+One of the tips that they discussed was the idea of new developer starting their own blog as a way to journal their successes and failures. The concept is that writing about a topic can help you wrap your head around it in a way that might not be possible otherwise. Some people write notes down on paper, others use apps like OneNote to write out helpful information that they can return to time and time again.
 
-{% highlight scss %}
-.header {
-font-size: 100px;
-}
-{% endhighlight %}
+The advantage of using a blog as a way to improve your understanding of a topic has the added element of your words becoming public domain where other people can challenge you and tell you if you got it all wrong. It can be scary to put yourself out there, but it is great motivation to really try and understand the topic you are learning about. A blog is a great way to connect with other developers and build a precence for yourself.
 
-### Heading Level 3
+This website... this blog is my attempt at documenting my learning journey for Microsoft Power Apps, SharePoint development and other related topics. I hope it will help me to build my knowledge of these products as I go from a beginner with some programming experience, mostly with web development, to an expert on these topics.
 
-> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This is just the beginning... Much more to come! I hope PowerAppMaker.dev will help you on your own journey!
