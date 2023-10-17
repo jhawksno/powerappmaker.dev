@@ -1,9 +1,9 @@
 ---
 layout: page
-title: PowerAppMaker.Dev
+title: LowCoders.Dev
 ---
 
-# Welcome to PowerAppMaker.Dev!
+# Welcome to lowcoders.dev!
 
 I decided to start this website aftering listening to an episode of a podcast called, <b>"A Question of Code"</b> in which the hosts were discussing top tips to enjoy what you do for new developers. I believe it was episode <b>87: Top Tips review: enjoy what you do</b> but don't hold me to that!
 
@@ -13,4 +13,6 @@ The advantage of using a blog as a way to improve your understanding of a topic 
 
 This website... this blog is my attempt at documenting my learning journey for Microsoft Power Apps, SharePoint development and other related topics. I hope it will help me to build my knowledge of these products as I go from a beginner with some programming experience, mostly with web development, to an expert on these topics.
 
-This is just the beginning... Much more to come! I hope PowerAppMaker.dev will help you on your own journey!
+This is just the beginning... Much more to come! I hope lowcoders.dev will help you on your own journey!
+
+- James
