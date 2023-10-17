@@ -26,7 +26,3 @@ This series will be an ongoing work-in-progress. So this roadmap may change in t
     <li>Introduction to SharePoint Framework SPFx</li>
     <li>Setting up your local SharePoint framework environment</li>
 </ul>
-
-Cheers,
-
-James
