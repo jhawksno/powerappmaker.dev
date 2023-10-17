@@ -15,4 +15,4 @@ This website... this blog is my attempt at documenting my learning journey for M
 
 This is just the beginning... Much more to come! I hope lowcoders.dev will help you on your own journey!
 
-- James
+-James
