@@ -5,6 +5,8 @@ title: LowCoders.Dev
 
 # Welcome to lowcoders.dev!
 
+
+
 I decided to start this website aftering listening to an episode of a podcast called, <b>"A Question of Code"</b> in which the hosts were discussing top tips to enjoy what you do for new developers. I believe it was episode <b>87: Top Tips review: enjoy what you do</b> but don't hold me to that!
 
 One of the tips that they discussed was the idea of new developer starting their own blog as a way to journal their successes and failures. The concept is that writing about a topic can help you wrap your head around it in a way that might not be possible otherwise. Some people write notes down on paper, others use apps like OneNote to write out helpful information that they can return to time and time again.

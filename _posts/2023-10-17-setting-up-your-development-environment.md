@@ -2,10 +2,9 @@
 layout: post
 title: "Becoming a low-code developer - Setting up your development environment"
 date: 2023-10-17 14:52:21
+author: James
 categories: becoming a low-code developer, development environment, low-code
 ---
-
-# Setting up your development environment
 
 One of the first things every developer needs to do is setup their development environment. The developement enivironment is a workspace with all of the tools needed to work on a coding project. It usually consists of a code editor, like Microsoft Visual Studio Code, support for the programming language you want to use for your project and possibly a repository to store your project files. That's all fine and dandy, but how do you actually do this?
 

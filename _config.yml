@@ -39,3 +39,12 @@ include: [_pages]
 exclude: [_site, CHANGELOG.md, LICENSE, README.md]
 sass:
   style: compressed
+
+paginate: 1
+
+# Site Collections
+collections:
+ _low_code_developer:
+    order:
+      - 2023-10-17-becoming-a-low-code-developer.md
+      - 2023-10-17-setting-up-your-development-environment.md

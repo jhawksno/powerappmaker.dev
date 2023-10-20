@@ -2,10 +2,9 @@
 layout: post
 title: "Becoming a low-code developer"
 date: 2023-10-17 1:52:21
+author: James
 categories: becoming a low-code developer
 ---
-
-# Becoming a low-code developer
 
 In this series, I will attempt to provide as much guidence as I can to help you on your journey from a complete low-code newbie to a total low-code super hacker. I'll share easy to follow tutorials, recommendations, tips and advice based on my own personal experiences, past and present, as I go through the same journey. I'll do my best to explain things in terms everyone can understand, and try to translate some of the more complicated instructions from sources like Microsoft Learn and GitHub into terms a 6-year old can follow.
 
