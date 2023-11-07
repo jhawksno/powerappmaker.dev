@@ -1,6 +1,6 @@
 ---
 layout: page
-title: LowCoders.Dev
+title: PowerAppMaker.Dev
 ---
 
 # Welcome to PowerAppMaker.dev
