@@ -2,15 +2,11 @@
    Article
    ========================================================================== */
 
-.c-article {
-
-}
-
 .c-article__main {
-  max-width: 76rem; // 760px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-top: 7.5rem;
+  //max-width: 76rem; // 760px;
+  max-width: 90%;
+  min-height: 100%;
+  padding-top: 1.5rem;
   padding-bottom: 7.5rem;
   padding-right: 2.5rem;
   padding-left: 2.5rem;
@@ -18,7 +14,7 @@
 
   > * {
     margin-bottom: 1.8rem;
-    color: rgba($c__black, .7);
+    color: rgba($c__black, 0.7);
   }
 
   a:not(.c-btn) {
@@ -32,7 +28,8 @@
     background: $c__light-grey;
   }
 
-  ul, ol {
+  ul,
+  ol {
     margin-left: 40px;
   }
 }

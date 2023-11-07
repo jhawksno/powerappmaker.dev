@@ -1,9 +1,67 @@
 /* ==========================================================================
-   Layout
+   CSS Grid Layout
    ========================================================================== */
 
-.u-container {
-  max-width: 116rem; // 1160px
-  margin-right: auto;
-  margin-left: auto;
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  grid-area: header;
+  background-color: #673ab7;
+}
+.nav {
+  grid-area: nav;
+  height: 60px;
+  background-color: #673ab7;
+}
+.sidebar {
+  grid-area: sidebar;
+  border: 1px solid #ddd;
+}
+.content {
+  grid-area: content;
+  border: 1px solid #ddd;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: #ddd;
+}
+
+.wrapper {
+  min-height: 100%;
+  max-width: 96vw; /* Limits the width to 96% of the width of the viewport */
+  margin: 0 auto; /* Horizontally centers the container */
+  display: grid;
+  gap: 20px;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    "nav"
+    "content"
+    "sidebar"
+    "footer";
+}
+
+@media (min-width: 500px) {
+  .wrapper {
+    min-height: 100%;
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas:
+      "nav     nav"
+      "sidebar content"
+      "footer     footer";
+  }
+}
+
+@media (min-width: 700px) {
+  .wrapper {
+    min-height: 100%;
+    justify-content: center;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-areas:
+      "nav    nav    nav"
+      "sidebar    content   content"
+      "footer  footer  footer";
+  }
 }

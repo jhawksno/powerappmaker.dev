@@ -2,10 +2,15 @@
 <html class="t-{{ site.themeColor }}">
   {% include head.html %}
   <body>
-    {% include navigation.html %}
-
-    {{ content }}
-
-    {% include footer.html %}
+    <div class="wrapper">
+      <div class="nav">
+        {% include navigation.html %}
+        </div>
+        <div class="sidebar">{% include sidebar.html %}</div>
+        <div class="content">{{ content }}</div>
+        <div class="footer c-footer">
+          {% include footer.html %}</div>
+      </div>
+    </div>
   </body>
 </html>

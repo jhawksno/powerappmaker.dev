@@ -1,7 +1,10 @@
-<aside class="c-navigation {% if site.fixedNav == 'true' %}is-fixed{% endif %}">
-    <div class="c-navigation__container u-container">
-      <a class="c-navigation__item {% if page.url == '/' %}is-active{% endif %}" href="{{ "/" | prepend: site.baseurl }}">Home</a>
-      <a class="c-navigation__item {% if page.url == '/articles/' %}is-active{% endif %}" href="{{ "/articles/" | prepend: site.baseurl }}">Articles</a>
-      <a class="c-navigation__item {% if page.url == '/about/' %}is-active{% endif %}" href="{{ "/about/" | prepend: site.baseurl }}">About</a>
-    </div>
+<aside class="sidebar-wrapper">
+  <div class="recent-posts">
+    <h2>Recent Posts</h2>
+    <p>{% for post in site.posts %}</p>
+    <p>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      {% endfor %}
+    </p>
+  </div>
 </aside>

@@ -4,22 +4,22 @@
 
 // Font families
 @mixin ff--sans-serif($font-weight: normal) {
-  font-family: 'Segoie UI', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: "Segoie UI", "Helvetica Neue", Helvetica, sans-serif;
   font-weight: $font-weight;
 }
 
 @mixin ff--mono($font-weight: normal) {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Segoie UI", monospace;
   font-weight: $font-weight;
 }
 
 // Font sizing
-@mixin fs--nav {
+@mixin fs--nav {fs--title
   line-height: 1.5;
   font-size: 1.5rem; // 18px
 }
 
-@mixin fs--title {
+@mixin  {
   line-height: 1.5;
   font-size: 2rem; // 40px
 }
