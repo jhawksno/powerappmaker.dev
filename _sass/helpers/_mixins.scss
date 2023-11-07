@@ -14,12 +14,12 @@
 }
 
 // Font sizing
-@mixin fs--nav {fs--title
+@mixin fs--nav {
   line-height: 1.5;
   font-size: 1.5rem; // 18px
 }
 
-@mixin  {
+@mixin fs--title {
   line-height: 1.5;
   font-size: 2rem; // 40px
 }
