@@ -3,14 +3,16 @@ layout: page
 title: PowerAppMaker.Dev
 ---
 
-<ul>
+# Recent Posts
+
+<div>
   {% for post in site.posts %}
-    <li>
+    <p>
       <a href="{{ post.url }}">{{ post.title }}</a>
       {{ post.excerpt }}
-    </li>
+    </p>
   {% endfor %}
-</ul>
+</div>
 
 # Welcome to PowerAppMaker.dev
 
@@ -22,4 +24,4 @@ The advantage of using a blog as a way to improve your understanding of a topic 
 
 This website... this blog is my attempt at documenting my learning journey for Microsoft Power Apps, SharePoint development and other related topics. I hope it will help me to build my knowledge of these products as I go from a beginner with some programming experience, mostly with web development, to an expert on these topics.
 
-This is just the beginning... Much more to come! I hope lowcoders.dev will help you on your own journey!
+This is just the beginning... Much more to come! I hope PowerAppMaker.dev will help you on your own journey!
