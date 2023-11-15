@@ -10,6 +10,7 @@ title: PowerAppMaker.Dev
     <p>
       <a href="{{ post.url }}">{{ post.title }}</a>
       {{ post.excerpt }}
+
     </p>
   {% endfor %}
 </div>
