@@ -3,18 +3,6 @@ layout: page
 title: PowerAppMaker.Dev
 ---
 
-# Recent Posts
-
-<div>
-  {% for post in site.posts %}
-    <p>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      {{ post.excerpt }}
-
-    </p>
-  {% endfor %}
-</div>
-
 # Welcome to PowerAppMaker.dev
 
 I decided to start this website aftering listening to an episode of a podcast called, **"A Question of Code"** in which the hosts were discussing top tips to enjoy what you do for new developers. I believe it was episode **87: Top Tips review: enjoy what you do** but don't hold me to that!
@@ -26,3 +14,15 @@ The advantage of using a blog as a way to improve your understanding of a topic 
 This website... this blog is my attempt at documenting my learning journey for Microsoft Power Apps, SharePoint development and other related topics. I hope it will help me to build my knowledge of these products as I go from a beginner with some programming experience, mostly with web development, to an expert on these topics.
 
 This is just the beginning... Much more to come! I hope PowerAppMaker.dev will help you on your own journey!
+
+## Recent Posts
+
+<div>
+  {% for post in site.posts %}
+    <p>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      {{ post.excerpt }}
+
+    </p>
+  {% endfor %}
+</div>
