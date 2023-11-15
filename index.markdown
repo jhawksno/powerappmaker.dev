@@ -14,6 +14,7 @@ The advantage of using a blog as a way to improve your understanding of a topic 
 This website... this blog is my attempt at documenting my learning journey for Microsoft Power Apps, SharePoint development and other related topics. I hope it will help me to build my knowledge of these products as I go from a beginner with some programming experience, mostly with web development, to an expert on these topics.
 
 This is just the beginning... Much more to come! I hope PowerAppMaker.dev will help you on your own journey!
+<br /><br />
 
 ## Recent Posts
 
@@ -26,3 +27,5 @@ This is just the beginning... Much more to come! I hope PowerAppMaker.dev will h
     </p>
   {% endfor %}
 </div>
+
+<a href="{{ "/articles/" | prepend: site.baseurl }}">View all Articles</a>
