@@ -3,6 +3,15 @@ layout: page
 title: PowerAppMaker.Dev
 ---
 
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
+
 # Welcome to PowerAppMaker.dev
 
 I decided to start this website aftering listening to an episode of a podcast called, **"A Question of Code"** in which the hosts were discussing top tips to enjoy what you do for new developers. I believe it was episode **87: Top Tips review: enjoy what you do** but don't hold me to that!
