@@ -39,6 +39,11 @@
   font-size: 1.5rem; // 18px
 }
 
+@mixin fs--sidebar {
+  line-height: 1.5;
+  font-size: 1.2rem; // 16px
+}
+
 @mixin fs--meta {
   line-height: 1;
   font-size: 1.2rem; // 16px
