@@ -35,13 +35,13 @@
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-
+}
   h3 {
     @include fs--body;
   }
 
   p {
     @include fs--body;
+    text-transform: uppercase
     color: #515862;
   }
-}
