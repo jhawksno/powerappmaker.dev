@@ -1,7 +1,8 @@
 # PowerAppMaker.dev
 
 [![Gem Version](https://img.shields.io/gem/v/jekyll.svg)][ruby-gems]
-[ruby-gems]: <https://rubygems.org/gems/jekyll>
+[ruby-gems]: <[def]>
+[def]: ttps://rubygems.org/gems/jekyl
 
 A personal blog website geared towards people interesting in low code/no code development.
 
