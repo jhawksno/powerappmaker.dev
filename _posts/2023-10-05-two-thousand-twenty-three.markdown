@@ -3,7 +3,7 @@ layout: post
 title: "Welcome to PowerAppMaker.Dev!"
 date: 2023-10-05
 author: James
-categories: website, articles
+categories: general
 ---
 
 I decided to start this website aftering listening to an episode of a podcast called, <b>"A Question of Code"</b> in which the hosts were discussing top tips to enjoy what you do for new developers. I believe it was episode <b>87: Top Tips review: enjoy what you do</b> but don't hold me to that!

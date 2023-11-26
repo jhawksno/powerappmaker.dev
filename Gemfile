@@ -9,7 +9,10 @@ gem "github-pages", group: :jekyll_plugins
 # group :jekyll_plugins do
 
 # Plugins of this site loaded only if configured correctly.
-gem 'jekyll-paginate'
+group :jekyll_plugins do
+    gem "jekyll-paginate-v2"
+    gem "jekyll-feed"
+  end
 
 gem 'faraday-retry'
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?

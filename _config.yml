@@ -33,17 +33,23 @@ markdown: kramdown
 fixedNav: 'false' # true or false
 themeColor: purple
 
-permalink: /:year/:month/:title
-paginate: 5
+# Produces a cleaner folder structure when using categories
+permalink: /:year/:month/:title.html
 markdown: kramdown
 include: [_pages]
 exclude: [_site, CHANGELOG.md, LICENSE, README.md]
 sass:
   style: compressed
 
-# Site Collections
-collections:
- _low_code_developer:
-    order:
-      - 2023-10-17-becoming-a-low-code-developer.md
-      - 2023-10-17-setting-up-your-development-environment.md
+plugins:
+  - jekyll-paginate-v2
+
+# Pagination Settings
+pagination:
+  enabled: true
+  per_page: 3
+  #permalink: '/page/:num/'
+  title: ' - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true

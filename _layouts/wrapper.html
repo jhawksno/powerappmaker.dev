@@ -27,7 +27,9 @@
         {% include navigation.html %}
         </div>
         <div class="sidebar">{% include sidebar.html %}</div>
-        <div class="content">{{ content }}</div>
+          <article>
+            <div class="c-article__main">{{ content }}</div>
+          </article>
         <div class="footer c-footer">
           {% include footer.html %}</div>
       </div>

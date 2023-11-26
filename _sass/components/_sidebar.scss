@@ -20,13 +20,13 @@ h2 {
   padding: 1.5rem 1.5rem 2.5rem 0.5rem;
   color: #444;
   @include fs--body;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #eee;
 }
 
 .sidebar a {
   text-decoration: none;
   @include fs--sidebar;
-  transition-duration: 0.5ms;
+  transition-duration: 0.7ms;
 }
 
 .sidebar a:hover {

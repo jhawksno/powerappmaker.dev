@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Create a form to upload Excel file in a Power App"
-date: 2023-11-04 2:52:21
+date: 2023-11-04 2:52:21 -0700
 author: James
-categories: dataverse, power apps, forms, model-driven
+categories: powerapps 
 ---
 
 To create a form to upload an Excel file to a Power App that updates an existing Dataverse table, you can follow these steps:
@@ -16,11 +16,11 @@ To create a form to upload an Excel file to a Power App that updates an existing
 6. From the **Data tab**, select **Add field** and choose **File**.
 7. From the **Advanced tab**, select **OnAddFile** and enter the following formula:
 
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
     Patch(Table1, Defaults(Table1), {Filename: ThisItem.DisplayName, FileContent: ThisItem.'$content'})
 
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 8. Save your form and publish it.
 
