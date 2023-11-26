@@ -16,26 +16,23 @@
 title: PowerAppMaker.Dev
 email: james.hawkins@snolab.ca
 description: > # this means to ignore newlines until "baseurl:"
-  Follow a struggling Power App Maker on my journey to become a Power App expert. From beginner to pro, I share my successes and failures, offer advice and provide resources to help other would-be Power App Makers on their journeys. 
+  Follow a struggling Power App Maker on my journey to become a Power App expert. From beginner to pro, I share my successes and failures, offer advice and provide resources to help other would-be Power App Makers on their journeys.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.powerappmaker.dev" # the base hostname & protocol for your site
+timezone: North
 
 # Social
 githubUsername: jhawksno
-twitterUsername:
-dribbbleUsername:
-codepenUsername:
 
 # Build settings
 markdown: kramdown
 
 #themeColor: purple # green, blue, orange, purple, grey
-fixedNav: 'false' # true or false
+fixedNav: "false" # true or false
 themeColor: purple
 
 # Produces a cleaner folder structure when using categories
 permalink: /:year/:month/:title.html
-markdown: kramdown
 include: [_pages]
 exclude: [_site, CHANGELOG.md, LICENSE, README.md]
 sass:
@@ -49,7 +46,7 @@ pagination:
   enabled: true
   per_page: 3
   #permalink: '/page/:num/'
-  title: ' - page :num'
+  title: " - page :num"
   limit: 0
-  sort_field: 'date'
+  sort_field: "date"
   sort_reverse: true
