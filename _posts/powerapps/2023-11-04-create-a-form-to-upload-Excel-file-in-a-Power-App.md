@@ -16,7 +16,7 @@ To create a form to upload an Excel file to a Power App that updates an existing
 6. From the **Data tab**, select **Add field** and choose **File**.
 7. From the **Advanced tab**, select **OnAddFile** and enter the following formula:
 
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
     Patch(Table1, Defaults(Table1), {Filename: ThisItem.DisplayName, FileContent: ThisItem.'$content'})
 
