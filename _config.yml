@@ -1,25 +1,10 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing these this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 title: PowerAppMaker.Dev
 email: james.hawkins@snolab.ca
-description: > # this means to ignore newlines until "baseurl:"
+description: >
   Follow a struggling Power App Maker on my journey to become a Power App expert. From beginner to pro, I share my successes and failures, offer advice and provide resources to help other would-be Power App Makers on their journeys.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.powerappmaker.dev" # the base hostname & protocol for your site
-timezone: North
+baseurl: ""
+url: "https://www.powerappmaker.dev"
 
 # Social
 githubUsername: jhawksno
@@ -28,6 +13,7 @@ githubUsername: jhawksno
 markdown: kramdown
 
 #themeColor: purple # green, blue, orange, purple, grey
+# This is will eventually be removed and reference the updated theme
 fixedNav: "false" # true or false
 themeColor: purple
 
