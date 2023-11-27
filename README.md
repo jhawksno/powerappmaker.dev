@@ -7,4 +7,4 @@ A personal blog website geared towards people interesting in low code/no code de
 
 ## Website Framework
 
-This website is built using Jekyll with a customized version of the Material Design theme by Alex Carpenter. It is hosted by Github Pages.
+This website is built using Jekyll and a highly customized version of the Material Design theme by Alex Carpenter. It is currently hosted by Github Pages.
